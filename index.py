@@ -78,3 +78,11 @@ Exercise 10:** Reverse the order of the words in the story.
 '''
 story3 = "" # write your code here
 print("Story with words reversed:", story3)
+
+'''
+Exercise 11:** write story to a file with a parameterized name.
+'''
+
+def writeFile(story, file_name):
+  with open(file_name, "w") as f:
+    f.write(story)
